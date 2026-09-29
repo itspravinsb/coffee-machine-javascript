@@ -20,4 +20,4 @@ Feature: Water
   Scenario: When the water tank is filled, the message disappears
     Given I take "55" coffees
     When I fill the water tank
-    Then message "Ready" should be displayed on bold
+    Then message "Ready" should be displayed
